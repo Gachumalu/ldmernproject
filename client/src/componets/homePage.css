@@ -1,0 +1,213 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.homePage {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)) ; */
+    background-image: linear-gradient(rgba(170, 219, 243, 0.3), rgba(0, 168, 255, 0.3)), url('../img/homePage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0 0);
+    position: relative;
+
+}
+
+.homePage::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+ 
+
+
+.homeM{
+    margin-left: 0%;
+    justify-content: center;
+    margin-top: 130px;
+    /* margin-bottom: auto; */
+}
+
+.LDHome{
+    color: #ff004f;
+    font-size: 31px;
+    font-weight: 500;
+}
+ .LDHome1{
+    color: #e7dede;
+   
+    font-size: 25px;
+    font-weight: 400;
+   
+}
+.LDpra{
+    font-size: 18px;
+    font-family: initial;
+
+}
+.LDpra2{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.LDpra3{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.pHome{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 450;
+    color: #e7dede;
+}
+
+.center-div{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: white;
+}
+
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.extra-div:hover{
+ 
+ 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-25px);
+    border-radius: 40px 10px 40px 10px;
+}
+
+.extra-div h2,.servicediv h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.cardImg{
+    width: 15rem;
+    border-radius: 14px;
+}
+
+
+/* ******************* service offers css start ****************** */
+.serviceoffers{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.headings{
+    margin-bottom: 50px;
+}
+
+.headings h1{
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* service-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.service-img-w{
+    width:100px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.progress{
+    height: 0.9rem !important;
+    margin-bottom: 25px !important;
+    background: #606060 !important;
+}
+
+
+/* ********************* contact page css start ******************** */
+
+.contactBG{
+    background: #fff;
+    height: 100vh;
+}
+
+
+.contactP{
+    background: rgb(185, 176, 176);
+    margin: 13px;
+    border-radius: 13px 4px;
+}
+.contactP:hover{
+    background: #ff004f;
+    color: rgb(252, 245, 245);
+}
+.conColor{
+    color: rgb(10, 0, 0);
+}
+/* ********************* contact page css end ******************** */
+.aboutusp{
+    padding: 9px;
+    /* color: antiquewhite; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    border-radius: 14px;
+    font-size: 33px;
+    font-weight: 611;
+}
+/* ********************* Course css :start ******************** */

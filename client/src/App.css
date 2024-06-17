@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* overflow: clip */
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+
+}
+
+.formMarging{
+    margin-top: 2.0%;
+    margin-bottom: 50px;
+    /* background: #FFF5EE; */
+
+
+}
+.bgColor{
+ 
+    height: 100vh;
+    /* background: #FFF5EE; */
+}
+.fromimage{
+    width: 80%;
+    margin-top: 15%;
+    
+}
+.fromimage2{
+    width: 80%;
+}
+.gachu3{
+    height: 50px;
+}
+.logo{
+    height: 40px;
+    width: 150px;
+}
+.aboutImg{
+    width:300px;
+}
+.aboutWidth{
+    width: 80%;
+}
+/* .contactP{
+    width: 124px;
+} */
+/* .notes{
+    display: flex;
+    position: fixed;
+} */
